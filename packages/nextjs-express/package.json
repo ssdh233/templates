@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-express",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "scripts": {
+    "dev": "nodemon -w server.js server.js",
+    "build": "next build",
+    "start": "node server.js",
+    "heroku-postbuild": "next build"
+  },
+  "author": "",
+  "license": "ISC"
+}
